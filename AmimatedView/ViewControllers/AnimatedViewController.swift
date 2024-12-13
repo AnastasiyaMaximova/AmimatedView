@@ -21,7 +21,7 @@ final class AnimatedViewController: UIViewController {
         setInfoLabels()
     }
     
-    @IBAction func runButtonPressed(_ sender: SpringButton) {
+    @IBAction func runButtonPressed() {
         setInfoLabels()
         
         animatedView.animation = animation.preset
@@ -34,7 +34,6 @@ final class AnimatedViewController: UIViewController {
         getRandomAnimation()
         
         runButton.setTitle("Run \(animation.preset)", for: .normal)
-        
     }
     
     private func getRandomAnimation () {

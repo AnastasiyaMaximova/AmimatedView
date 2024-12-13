@@ -91,7 +91,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="animation" value="wobble"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="runButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0pl-ca-pve"/>
+                                    <action selector="runButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="i6U-vz-4Ex"/>
                                 </connections>
                             </button>
                         </subviews>
